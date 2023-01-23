@@ -84,6 +84,22 @@ The grade that a student receives on this assignment will have the following com
 
 - **Mastery of Technical Writing [up to 50%]:**: Students will also receive a checkmark grade when the responses to the writing questions presented in the `reflection.md` reveal a proficiency of both writing skills and technical knowledge. To receive a checkmark grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
 
+## GatorGrade
+
+You can check the baseline writing and commit requirements for this lab assignment by running department's assignment checking `gatorgrade` tool. To use `gatorgrade`, you first need to make sure you have Python3 installed (type `python --version` to check). If you do not have Python installed, please see:
+
+- [Setting Up Python on Windows](https://realpython.com/lessons/python-windows-setup/)
+- [Python 3 Installation and Setup Guide](https://realpython.com/installing-python/)
+- [How to Install Python 3 and Set Up a Local Programming Environment on Windows 10](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
+
+Then, if you have not done so already, you need to install `gatorgrade`:
+
+- First, [install `pipx`](https://pypa.github.io/pipx/installation/)
+- Then, install `gatorgrade` with `pipx install gatorgrade`
+
+Finally, you can run `gatorgrade`:
+
+`gatorgrade --config config/gatorgrade.yml`
 
 ## Seeking Assistance
 
