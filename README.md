@@ -1,6 +1,6 @@
 # Data Analytics (CS301) Lab 1 Assignment
 
-Working in Virtual Environments
+Reading about Data Analytics
 
 **Assigned** : Monday 23 January 2023
 
